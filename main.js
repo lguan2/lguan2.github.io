@@ -2,6 +2,7 @@ swal({
     html: 'test',
     allowOutsideClick: false,
     allowEscapeKey: false,
+    confirmButtonText: "Cancel",
   
     onOpen: function () {
       swal.showLoading();
