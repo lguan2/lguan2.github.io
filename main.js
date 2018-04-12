@@ -12,6 +12,6 @@ swal({
     setTimeout(function() {
       b.disabled = false
       b.hidden = false
-    }, 'test'.length * 500) 
+    }, 2000) 
   }
 })
