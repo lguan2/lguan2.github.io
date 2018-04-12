@@ -1,17 +1,12 @@
-
 swal({
-  html: 'test',
-  allowOutsideClick: false,
-  allowEscapeKey: false,
-
-  onOpen: function () {
-    var b = swal.getConfirmButton()
-    b.hidden = true
-    b.disabled = true
-    
-    setTimeout(function() {
-      b.disabled = false
-      b.hidden = false
-    }, 2000) 
-  }
-})
+    html: 'test',
+    allowOutsideClick: false,
+    allowEscapeKey: false,
+  
+    onOpen: function () {
+      swal.showLoading();
+      swal.disableButtons();
+      setTimeout(swal.disableLoading, 'test'.length * 500)
+      setTimeout(swal.enableButtons, 'test'.length * 500) 
+    }
+  })
