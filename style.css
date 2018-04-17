@@ -1,0 +1,46 @@
+.swal2-modal redirecting-title {
+    height: 11px;	
+    width: 141px;	
+    color: #252525;	
+    font-family: "Samsung Sharp Sans";	
+    font-size: 11px;	
+    font-weight: bold;	
+    line-height: 11px;	
+    text-shadow: 0 2px 14px 0 rgba(0,0,0,0.5);
+}
+
+.swal2-modal redirecting-text {
+    height: 16px;	
+    width: 213px;	
+    color: #8D8D8D;	
+    font-family: SamsungOne;	
+    font-size: 12px;	
+    line-height: 16px;	
+    text-align: center;
+}
+
+.confirm-button {
+    height: 12px;	
+    width: 16px;	
+    color: #4162DA;	
+    font-family: SamsungOne;	
+    font-size: 12px;	
+    line-height: 12px;	
+    text-align: center;	
+    text-shadow: 0 2px 14px 0 rgba(0,0,0,0.5);
+}
+
+.swal2-modal button-text{
+    height: 12px;	
+    width: 16px;	
+    color: #4162DA;	
+    font-family: SamsungOne;	
+    font-size: 12px;	
+    line-height: 12px;	
+    text-align: center;	
+    text-shadow: 0 2px 14px 0 rgba(0,0,0,0.5);
+}
+
+
+
+
